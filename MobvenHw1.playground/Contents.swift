@@ -29,5 +29,9 @@ func calculateFibonacciNumber(startNumber: Int ,endNumber: Int) -> [Int] {
     return fibonacciNumbers
 }
 
-print(calculateFibonacciNumber(startNumber: 750, endNumber: 1000))
+
+func getFibonacci () {
+    print(calculateFibonacciNumber(startNumber: 750, endNumber: 1000))
+}
+
 
